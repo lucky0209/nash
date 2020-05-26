@@ -137,7 +137,7 @@ body {
 }
 .space{
     border:1.75rem;
-    padding:0.5rem;
+    padding:0.75rem;
 }
 .space1{
 	border:1.75rem;
@@ -195,7 +195,7 @@ body {
 /* The icon inside the overlay is positioned in the middle vertically and horizontally */
 .icon {
   color: white;
-  font-size: 4remrem;
+  font-size: 4rem;
   position: absolute;
   top: 50%;
   left: 50%;
