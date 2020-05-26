@@ -34,17 +34,6 @@ body {
   padding: 48px 0 0; /* Height of navbar */
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
 }
-
-@media (max-width: 767.98px) {
-  .sidebar {
-    top: 5rem;
-  }
-}
-@media (max-width:245px){
-	.image1{
-		font-size:0.9rem;
-	}
-}
 @media (max-width:216px){
 	.image1{
 		font-size:0.75rem;
@@ -206,7 +195,7 @@ body {
 /* The icon inside the overlay is positioned in the middle vertically and horizontally */
 .icon {
   color: white;
-  font-size: 100px;
+  font-size: 4remrem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -218,4 +207,76 @@ body {
 /* When you move the mouse over the icon, change color */
 .fa-user:hover {
   color: #eee;
+}
+.me{
+	font-size:1.2rem;
+}
+@media (max-width: 750px) {
+  .sidebar {
+    top: 5rem;
+  }
+  .icon{
+	  font-size:4rem;
+  }
+  .container .inner{
+		width:100%;
+	}
+	.inner{
+		margin:0 2% 0 0;
+	}
+	.card-body{
+		padding:1rem 0.5rem 0 2rem;
+	}
+	
+	.container{
+		padding:0.7rem 0.8rem 0.7rem 0;
+	}
+	.inner{
+		width:100%;
+		height:auto;
+		padding:0.2rem 0.5rem 0 0 ;
+	}
+	.image{
+		padding:0 0 0 0;
+	}
+}
+
+@media (max-width: 620px){
+	
+	.container .inner{
+		width:100%;
+	}
+	.inner{
+		margin:0 2% 0 0;
+	}
+	.me{
+		font-size:0.9rem;
+	}
+	.card-body{
+		padding:1rem 0 0 2rem;
+	}
+	
+	.container{
+		padding:0 0.8rem 0 0;
+	}
+	.inner{
+		width:100%;
+		height:auto;
+		padding:0 0.5rem 0 0 ;
+	}
+	.image{
+		padding:0 0 0 0;
+	}
+	.icon{
+		font-size:3rem;
+	}
+	
+}
+@media (max-width: 245px){
+	.image1{
+		font-size:0.9rem;
+	}
+	.icon{
+		font-size:2rem;
+	}
 }
