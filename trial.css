@@ -175,7 +175,7 @@ body {
   width: 100%;
 }
 .inner{
-	margin:10%;
+	margin:10% 10% 20% 10%;
 }
 .inner1{
 	margin-left:2%;
@@ -219,4 +219,3 @@ body {
 .fa-user:hover {
   color: #eee;
 }
-
