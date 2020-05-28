@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>UPLOAD PAGE</title>
+	 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+	<link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="upload.css" rel="stylesheet">
+  </head>
+  <body>
+<main role="main" style="background-color:##66ccff">
+  <section class="jumbotron text-center" style="background-color:##66ccff">
+    <div class="container">
+      <h1>Upload Files</h1>
+      <p class="lead text-muted">Please upload <b>right</b> content and stay with us to be in your <b>comfortable</b> zone </p>
+    </div>
+	<a href="#" class="btn btn-danger btn-lg my-2">Go to Dashboard</a>
+  </section>
+  <div class="container" style="height:30px"></div>
+  <section>
+  <form action="" method="POST" enctype="multipart/form-data">
+    <div class="container third">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+          <div class="form-group">
+            <div class="preview-zone hidden">
+              <div class="box box-solid">
+                
+					<button type="button" class="btn btn-danger btn-lg remove-preview">
+                      <i class="fa fa-times"></i> Reset The Field
+						</button>
+		  <div class="box-body"></div>
+              </div>
+            </div>
+            <div class="dropzone-wrapper d-flex justify-content-center align-items-center border border-white">
+              
+			  <img src="upload.png" class="img-fluid img-thumbnail five">
+              <input type="file" name="img_logo" class="dropzone">
+			 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center" >
+        <div class="col-md-6 d-flex justify-content-center">
+          <button type="submit" class="btn btn-danger btn-lg pull-right">Upload</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
+
+</main>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script  src="upload.js"></script>
+</body>
+</html>
