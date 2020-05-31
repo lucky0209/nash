@@ -1,0 +1,102 @@
+html,
+body {
+  height: 100%;
+  background-image:url('signup.jpg');
+  background-size:cover;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color:;
+}
+
+.s h1{
+	font-weight:300;
+	font-size:5rem;
+}
+.s p{
+	font-size:1.5rem;
+	color:white;
+}
+.s{
+	height:30vh;
+	padding:0;
+}
+.form-signin {
+  width: 100%;
+  max-width: 550px;
+  padding: 15px;
+  margin: auto;
+  background-color:#262626;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color:transparent;
+}
+.form-signin input[type="email"] {
+  margin-bottom: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color:transparent;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color:transparent;
+}
+.first{
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.btn{
+	width:10rem;
+}
+
+.card{
+	height:80%;
+}
+.card-body{
+	height:100%;
+}
+.s1{
+	color:white;
+	padding:0;
+}
+.s2{
+	padding:0;
+}
+.s3{
+	color:white;
+	padding:0;
+}
+.space{
+	border:2px;
+	padding:3px;
+}
+.space1{
+	border:5px;
+	padding:10px;;
+}

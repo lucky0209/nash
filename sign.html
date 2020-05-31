@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sign Up</title>
+	<script>
+		function namecheck(form)
+		{
+			var pass1=document.getElementById("inputPassword").value;
+			var pass2=document.getElementById("inputconfirm").value;
+            if (pass1 != pass2) { 
+                    alert ("\nYour password does not match.....Retype it") 
+                    return false; 
+                } 
+			else
+			return true;
+  
+		}
+	</script>
+	<link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="signin.css" rel="stylesheet">
+  </head>
+  <body>
+ <div class="container h-100">
+  <div class="row d-flex justify-content-center">
+	<div class="container s">
+				<h1 class=" d-flex justify-content-center">Welcome to BugTracker!</h1>
+				<p class="card-text">Setup BugTracker for your organisation. Spend less time communicating and solve bugs quickly</p>
+	</div>
+	<div class"space1"></div>
+	<div class="container d-flex justify-content-center">
+		<form class="form-signin border border-info first" onSubmit = "return namecheck(this)">
+		<div  class="container d-flex justify-content-center">
+			<img class="mb-4 rounded-circle" src="images.jpg" alt="" width="82" height="82">
+		</div>
+		<div class="container d-flex justify-content-center s3">
+			<h1 class="font-weight-normal">Sign Up</h1>
+		</div>
+		<div class="container d-flex justify-content-start s1">Full Name</div>
+			<label for="inputName" class="sr-only">FullName</label>
+			<input type="text" id="inputName" class="form-control"placeholder="Name" required>
+		<div class="container d-flex justify-content-start s1">Organization Name</div>
+			<label for="inputOrganisation" class="sr-only">Organisation Name</label>
+			<input type="text" id="inputOrganisation" class="form-control" placeholder="E.g Facebook" required>
+		<div class="container d-flex justify-content-start s1">Registered Company Domain</div>
+			<label for="inputcompany" class="sr-only">Registered Company Domain</label>
+			<input type="text" id="inputcompany" class="form-control" placeholder="E.g heritage.edu.in" required>
+		<div class="container d-flex justify-content-start s1"> Organization Provided Email</div>
+			<label for="inputEmail" class="sr-only">Organization Provided Email</label>
+			<input type="email" id="inputEmail" class="form-control" placeholder="E.g heritage.edu.in" required>
+		<div class="container d-flex justify-content-start s1">Create Password</div>
+			<label for="inputPassword" class="sr-only"> Create Password</label>
+			<input type="password" id="inputPassword" class="form-control" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}" title="minimun of 7 characters and have atleast one number,one uppercase and one lowercase letter"required>
+		<div class="container d-flex justify-content-start s1">Confirm Password</div>
+			<label for="inputconfirm" class="sr-only">Confirm Password</label>
+			<input type="password" id="inputconfirm" class="form-control" placeholder="confirm password" required>
+		<div class="space"></div>
+		<div class="container d-flex justify-content-start s2">
+			<button class="btn btn-lg btn-primary btn-block first" type="submit">Sign Up</button>
+		</div>
+		</form>
+		<div class"space1"></div>
+	</div>
+   </div>
+ </div>
+ <div class"container"></div>
+</body>
+</html>
