@@ -1,0 +1,60 @@
+body{
+	font:"Raleway",sans-sarif;
+	color:rgba(0,0,0,.5);
+	background:linear-gradient(to right,red,grey);
+}
+.heading{
+	top:15%;
+	letter-spacing:1.4rem;
+	font-size:5rem;
+}
+.heading2{
+	font-size:2.5rem;
+	color:lightgray;
+}
+.heading3{
+	font-size:2.5rem;
+	color:lightgray;
+	padding:0 0 0 3rem;
+	
+}
+
+.sub2{
+	font-size:1.5rem;
+	color:green;
+}
+@media screen and (max-width: 750px){
+	
+	.heading{
+		font-size:4.2rem;
+	}
+	.container{	
+		padding:0;
+	}
+	.sub2{
+		font-size:1.3rem;
+	}
+	
+	.heading3{
+		padding:0 0 0 1.8rem;
+		
+	}
+}
+@media screen and (max-width: 600px){
+	.heading{
+		font-size:3.5rem;
+	}
+	.heading3{
+		
+		font-size:2rem;
+		padding:0 0 0 1.8rem;
+	}
+	.container{
+		padding:0;
+	}
+	.sub2{
+		
+		font-size:1.1rem;
+	}
+	
+}
